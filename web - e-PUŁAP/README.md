@@ -16,4 +16,6 @@ that impersonates `webhook_login_url` from database. Result:
 I enter the link into browser, it logs me in and gives me access to the flag url: https://e-pulap.ecsc23.hack.cert.pl/static/flag_deadbeef_cofebabe_etc.txt
 
 ### Flag
-`ecsc23{paswordless_is_the_future!}`
+```
+ecsc23{paswordless_is_the_future!}
+```
