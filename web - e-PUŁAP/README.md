@@ -1,3 +1,5 @@
+# [web - e-PUŁAP](https://hack.cert.pl/challenge/e-pulap)
+
 First things first, a SQL injection attempt: `' OR 1=1 -- `. I get a weird looking error `error:Could not resolve host: chat.evil-corporation.private` which ensures me that the field is indeed injectable, so I put there some nonsense like `' test` and get this error:
 ```
 Fatal error
@@ -12,3 +14,6 @@ that impersonates `webhook_login_url` from database. Result:
 ![](image.png)
 
 I enter the link into browser, it logs me in and gives me access to the flag url: https://e-pulap.ecsc23.hack.cert.pl/static/flag_deadbeef_cofebabe_etc.txt
+
+### Flag
+`ecsc23{paswordless_is_the_future!}`
