@@ -3,3 +3,4 @@ Writeups from eliminations organized by [hack.cert.pl](https://hack.cert.pl/)
 
 ## Challenges
 - [web - WAF](https://github.com/wblazej/hack.cert.2023/tree/main/web%20-%20WAF)
+- [web - e-PUŁAP](https://github.com/wblazej/hack.cert.2023/tree/main/web%20-%20e-PU%C5%81AP)
