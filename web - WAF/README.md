@@ -9,6 +9,3 @@ curl "https://waf.ecsc23.hack.cert.pl/flag" -H "range: bytes=6-45"
 ```
 ecsc23{waf_stands_for_very_accessible_flag}
 ```
-
-### References
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Range
